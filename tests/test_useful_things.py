@@ -11,3 +11,9 @@ def test_add(x, y):
 @given(st.integers(), st.integers())
 def test_subtract(x, y):
     assert useful_things.subtract(x, y) == x - y
+
+
+@given(st.integers(), st.integers())
+def test_multiply(x, y):
+    assert useful_things.multiply(x, y) == x * y
+
