@@ -19,5 +19,5 @@ jobs:
       - name: Install deps
         uses: py-actions/py-dependency-install@v2
       - name: Run tests
-        run: pytest
+        run: python -m pytest
 
