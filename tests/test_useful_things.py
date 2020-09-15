@@ -16,4 +16,3 @@ def test_subtract(x, y):
 @given(st.integers(), st.integers())
 def test_multiply(x, y):
     assert useful_things.multiply(x, y) == x * y
-
