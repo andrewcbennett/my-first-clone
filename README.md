@@ -1,5 +1,5 @@
 # Git Scientist: My First Clone
 
-This repo is part of the Git for Scientists course.
+This repo is forked from the Git for Scientists course (see https://www.gitscientist.com).
 
-See https://www.gitscientist.com for more.
+I have used it to experiment with Google Actions for CI/CD.
