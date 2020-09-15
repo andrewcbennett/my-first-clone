@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - name: Install deps
+        uses: py-actions/py-dependency-install@v2
       - name: Run tests
         run: pytest
 
