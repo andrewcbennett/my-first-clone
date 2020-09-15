@@ -20,4 +20,6 @@ jobs:
         uses: py-actions/py-dependency-install@v2
       - name: Run tests
         run: python -m pytest
+      - name: Blackify
+        uses: lgeiger/black-action@v1.0.1
 
